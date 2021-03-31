@@ -4,6 +4,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 6px;
+  font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+  color: rgba(0,0,0,0.87)
 }
 
 .nav-left {
@@ -12,7 +14,11 @@ nav {
 }
 
 .nav-right {
+  display: flex;
+  flex-direction: row;
   background: red;
+  align-items: center;
+  padding: 10px;
 }
 
 .navlink {
@@ -21,4 +27,17 @@ nav {
   margin: 0 5px;
   color: #222;
   text-decoration: none;
+  padding: 8px;
+}
+
+.app-grid-icon {
+  color: #5f6368;
+  opacity: 1;
+  height: 20px;
+  width: 20px;
+  padding: 8px;
+}
+
+.applink {
+
 }
